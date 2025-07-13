@@ -1,0 +1,18 @@
+source_folders:
+  - "Z:\\local\\local\\local\\local"
+  - "Z:\\local\\local\\local\\local"
+  - "Z:\\local\\local\\local\\local"
+  - "Z:\\local\\local\\local\\local"
+  - "Z:\\local\\local\\local"
+  - "Z:\\local\\local"
+  - "Z:\\local\\local"
+
+destination: "E:\\local\\Backup"
+prefix: "arquivo_backup"
+# Número de Backup`s
+retention: 7
+staging_path: "E:\\local\\Backup\\temp_staging"
+
+# Número de 'trabalhadores' para a cópia em paralelo. 
+# Aumente se tiver um disco rápido (SSD) e muitos arquivos pequenos.
+parallel_workers: 8
